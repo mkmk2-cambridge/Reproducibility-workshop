@@ -1,0 +1,89 @@
+---
+title: "Reproducibility in R"
+author: "Mia Kim"
+date: "18/02/2020"
+output: 
+    html_document: 
+      toc: true  
+      toc_depth: 3
+      toc_float: true
+---
+
+# Coursewebsite {#introduction}
+https://cambiotraining.github.io/ReproducibilityR_Feb2020/rmarkdown.html#rstudio
+
+## Useful Info 
+Working directory 
+    :Absolute vs Relative paths
+
+### Inline text formatting
+To make text bold use **double asterisks** or __double underscores__.
+
+
+To make text italic use *asterisks* or _underscores_.
+
+To make text superscript use ^caret^.
+
+To make text subscript use ~tilde~.
+
+To mark text as inline code use `backticks`.
+
+To strikethrough text use ~~double tilde~~.
+
+
+
+### List 
+#### Ordered list 
+1. Item1 
+2. Item2 
+3  Item3
+    a. sublist 1
+    b. sublist 2
+    
+#### Unordered list 
+* Item A
+* Item B
+* Item C
+
+- Item A
+- Item B
+- Item C
+
+#### Task list 
+- [ ] an unchecked task list item
+- [x] checked item 
+
+### Interting images 
+Inserting images
+
+To insert an image use the following syntax: ![Figure caption](path to image). Example:
+
+![R Logo](https://lh3.googleusercontent.com/proxy/Otvt7WN_hy_XD8VD2zsHUUIixqjJx_zOzAGFh4uaiibv3gQegFrBirpo4O2qJxFqRVjM_uf0AqYfcUE-qkLMQc0E60Em2MihjhB1tL8B_phi6V1XDSlFj7fgNk629U39cvdj1eo4E_kuebWToKL8sGU)
+
+
+### Inserting a link
+
+We have covered how to use Rmarkdown in the [introduction section]()
+
+You can also insert a url link [https://cambiotraining.github.io/ReproducibilityR_Feb2020/rmarkdown.html#summary]()
+
+### Inserting a footnote 
+Footnote [^1] 
+
+[^1]: The first footnote
+
+### Inserting R code chucnks 
+```{R}
+download.file(url="https://raw.githubusercontent.com/cambiotraining/reproducibility-training/master/data/gapminder_data.csv", destfile="data/gapminder_data.csv")
+```
+
+
+```{R}
+
+```
+40-16-08
+64332873
+
+```{R}
+
+```
